@@ -3,14 +3,21 @@ import Image from 'next/image';
 export default function Header() {
   return (
     <header className="w-full">
-      {/* Top Bar */}
-      <div className="bg-gray-800 text-white text-sm">
-        <div className="max-w-7xl mx-auto px-4 py-2 flex justify-end items-center">
-          <span className="mr-6">📞 (248) 555-1234</span>
-          <span>✉️ info@ceimagesolutions.com</span>
-        </div>
-      </div><div className="text-brand text-2xl font-bold">Test brand red</div>
+      {/* Top Bar with Gradient */}
+      <div className="w-full bg-gradient-to-r from-red-700/80 to-gray-800/90 py-2">
+        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center text-white text-sm">
+          {/* Left Side */}
+          <div>
+            Custom Web Design & Digital Marketing Solutions
+          </div>
 
+          {/* Right Side */}
+          <div className="flex gap-6">
+            <div>📞 (248) 555-1234</div>
+            <div>✉️ info@ceimagesolutions.com</div>
+          </div>
+        </div>
+      </div>
 
       {/* Main Navigation */}
       <div className="bg-white shadow">
