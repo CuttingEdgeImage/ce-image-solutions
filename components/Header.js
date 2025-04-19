@@ -35,19 +35,19 @@ export default function Header() {
 
           {/* Navigation Links */}
           <nav className="hidden md:flex space-x-6">
-            <a href="#" className="text-gray-600 hover:text-brand hover:underline hover:underline-offset-4 transition">
+            <a href="#" className="text-gray-600 hover:text-[#bf0006] hover:underline hover:underline-offset-4 transition">
               Website Design
             </a>
-            <a href="#" className="text-gray-600 hover:text-brand hover:underline hover:underline-offset-4 transition">
+            <a href="#" className="text-gray-600 hover:text-[#bf0006] hover:underline hover:underline-offset-4 transition">
               Digital Marketing
             </a>
-            <a href="#" className="text-gray-600 hover:text-brand hover:underline hover:underline-offset-4 transition">
+            <a href="#" className="text-gray-600 hover:text-[#bf0006] hover:underline hover:underline-offset-4 transition">
               Photography & Video
             </a>
-            <a href="#" className="text-gray-600 hover:text-brand hover:underline hover:underline-offset-4 transition">
+            <a href="#" className="text-gray-600 hover:text-[#bf0006] hover:underline hover:underline-offset-4 transition">
               About
             </a>
-            <a href="#" className="text-gray-600 hover:text-brand hover:underline hover:underline-offset-4 transition">
+            <a href="#" className="text-gray-600 hover:text-[#bf0006] hover:underline hover:underline-offset-4 transition">
               Contact
             </a>
           </nav>
